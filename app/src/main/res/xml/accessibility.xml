@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+                       android:accessibilityEventTypes="typeWindowStateChanged|typeViewFocused"
+                       android:accessibilityFeedbackType="feedbackGeneric"
+                       android:canRequestTouchExplorationMode="true"
+                       android:canPerformGestures="true"
+                       android:canRetrieveWindowContent="true"
+                       android:description="@string/testaccessibility"
+                       android:notificationTimeout="2000"
+                       android:packageNames="cn.amazon.mShop.android"/>
+                       <!--android:packageNames="com.gdky005.accessibility"/>-->
+    <!--android:packageNames="cn.amazon.mShop.android" />-->
